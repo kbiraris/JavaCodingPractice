@@ -1,6 +1,15 @@
 import java.util.ArrayList;
 
 /*
+Collections
+Collection - To represent group of elements/objects/data into single entity then go for collections.
+"Collection" is interface which is available in java.util package..
+
+To overcome limitation of Arrays, Collections comes into picture
+1) Size of array is fixed
+2) Heterogenious data not allowed ( multiple data values)
+
+ArrayList - is class implemeted List interface
 1) Heterogenious data - allowed
 2) Insertion order- preserved(Index)
 3) Duplicate elements -- allowed

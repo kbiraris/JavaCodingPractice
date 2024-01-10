@@ -1,5 +1,6 @@
 import java.util.HashSet;
 /*
+HashSet   - a class implemented Set interface
 1) Heterogenios data ---> allowed
 2) Insertion order  --> Not preserved (Index not supported)
 3) Duplicate elements --> Not Allowed
