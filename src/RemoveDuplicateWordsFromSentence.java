@@ -4,8 +4,8 @@ public class RemoveDuplicateWordsFromSentence {
     public static void main(String[] args) {
 
         String originalString = "Remove duplicate word word Remove";
-
-        System.out.println(removeDuplicateFromString(originalString));
+        System.out.println("Original String -> " + originalString);
+        System.out.println("After removing duplicates -> " + removeDuplicateFromString(originalString));
     }
 
     static String removeDuplicateFromString(String originalString) {
