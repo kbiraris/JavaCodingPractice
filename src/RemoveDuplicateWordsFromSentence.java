@@ -14,13 +14,13 @@ public class RemoveDuplicateWordsFromSentence {
 
         HashSet<String> setString = new HashSet<>();
 
-        StringBuilder resultBuffer  = new StringBuilder();
+        StringBuilder resultBuilder = new StringBuilder();
 
         for(String word : splitString){
             if(setString.add(word)){
-                resultBuffer.append(word).append(" ");
+                resultBuilder.append(word).append(" ");
             }
         }
-        return resultBuffer.toString();
+        return resultBuilder.toString();
     }
 }

@@ -25,7 +25,7 @@ public class HashMapDemo {
         hm.put(102, "Scott");
         hm.put(103, "John");
         hm.put(104, "Mary");
-        hm.put(101, "David");
+        hm.put(101, "David");  //here 101 is duplicate key so latest value stored for Key-101
 
         System.out.println(hm); //  {101=David, 102=Scott, 103=John, 104=Mary}
 
