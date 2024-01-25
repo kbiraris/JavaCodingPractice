@@ -34,8 +34,14 @@ public class PrintVowelFrequencyInString {
         }
 
         // Print the Map key-value which shows the frequency of each vowel
-        for(Map.Entry<Character,Integer> entry: vowelFrequency.entrySet()){
-            System.out.println(entry.getKey() + " " + entry.getValue());
+        for(Map.Entry<Character,Integer> entry: vowelFrequency.entrySet()) {
+            System.out.println("Frequency of the Vowel " + entry.getKey() + " found " + entry.getValue() + " times in given string");
+        }
+
+        //One more way to print map key-value as get() method returns the value to which the specified key is mapped
+        for(Object key : vowelFrequency.keySet()){
+            System.out.println("Vowel " + key + " Frequency " + vowelFrequency.get(key));
+
         }
     }
 }
