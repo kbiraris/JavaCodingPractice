@@ -15,7 +15,7 @@ public class StaticMain {
 
         // System.out.println(b);   // incorrect , bcoz b is non-static variable
 
-        ////We can access static member of other class by giving reference of that class.
+        //We can access static member of other class by giving reference of that class.
         StaticExample.m1();
         //m2(); // Nincorrect , bcoz m2() is non-static method
 

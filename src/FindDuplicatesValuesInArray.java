@@ -4,7 +4,7 @@ public class FindDuplicatesValuesInArray {
 
     public static void main(String[] args) {
 
-        int[] array = {1,-2,3,4,1,5,-2};
+        int[] array = {1,3,4,5,-2,1};
         System.out.println("Given Array - " + Arrays.toString(array));
 
         findDuplicateValueInArray(array);
@@ -21,7 +21,11 @@ public class FindDuplicatesValuesInArray {
                 list.add(value);
             }
         }
-
-        System.out.println("Duplicate values in Array - " + list);
+        System.out.println("Unique values are " + hashSet);
+        if(list.isEmpty()){
+            System.out.println("No duplicate found");
+        }else{
+            System.out.println("Duplicate values in Array - " + list);
+        }
     }
 }

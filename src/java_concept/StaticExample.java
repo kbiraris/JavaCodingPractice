@@ -23,18 +23,18 @@ public class StaticExample {
         m2();
     }
 
-//    public static void main(String[] args) {
-//
-//        System.out.println(a);  //1) static methods can access static stuff directly ( without object)
-//        // System.out.println(b);   // incorrect , bcoz b is non-static variable
-//
-//       m1();
-//       //m2(); // Nincorrect , bcoz m2() is non-static method
-//
-//
-//        //2) static methods can access non-static stuff through object
-//        StaticExample se = new StaticExample();
-//        System.out.println(se.b);
-//        se.m2();
-//    }
+    public static void main(String[] args) {
+
+        System.out.println(a);  //1) static methods can access static stuff directly ( without object)
+        //System.out.println(b);   // incorrect , because b is non-static variable
+
+       m1();
+       //m2(); // incorrect , because m2() is non-static method
+
+
+        //2) static methods can access non-static stuff through object
+        StaticExample se = new StaticExample();
+        System.out.println(se.b);
+        se.m2();
+    }
 }

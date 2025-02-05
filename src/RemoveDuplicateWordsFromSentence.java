@@ -13,7 +13,6 @@ public class RemoveDuplicateWordsFromSentence {
         String[] splitString = originalString.split(" ");
 
         HashSet<String> setString = new HashSet<>();
-
         StringBuilder resultBuilder = new StringBuilder();
 
         for(String word : splitString){
