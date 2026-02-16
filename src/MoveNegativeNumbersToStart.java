@@ -24,7 +24,6 @@ public class MoveNegativeNumbersToStart {
                 counter++;
             }
         }
-
         System.out.print(Arrays.toString(tempArray));
     }
 }
