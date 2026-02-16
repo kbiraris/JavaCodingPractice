@@ -29,7 +29,8 @@ public class CarDealership {
         for(Car car: cars){
             System.out.println(car.id + " " + car.brand + " " + car.color + " " + car.type + " " + car.price);
         }
-        List<Car> result = findCarWithColor(cars,"blue");
+        String carColour = "Blue";
+        List<Car> result = findCarWithColor(cars,carColour);
         for(Car r : result){
             System.out.println(r.brand + " is of colour " + r.color );
         }
