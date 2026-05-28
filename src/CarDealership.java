@@ -21,7 +21,7 @@ class Car{
 
 public class CarDealership {
     public static void main(String[] args) {
-        Car car1 = new Car(1,"Honda","Sedan","White",15000.00);
+        Car car1 = new Car(1,"Honda","Sedan","White",1000.00);
         Car car2 = new Car(2,"BMW","SUV","Blue",1000.00);
         Car car3 = new Car(3,"Mercedes","SUV","Blue",20000.00);
 

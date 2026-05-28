@@ -1,6 +1,7 @@
 package java_concept;
 
 import java.util.ArrayList;
+import java.util.List;
 
 /*
 Collections
@@ -59,7 +60,21 @@ public class ArrayListDemo {
             System.out.println(x);
         }
 
-        mylist.clear(); //clears the data from arraylist
+        //mylist.clear(); //clears the data from arraylist
         System.out.println("After clearing"+ mylist);  // []
+
+        System.out.println(mylist.isEmpty());
+        ArrayList li = new ArrayList();
+        li.addAll(mylist);
+        System.out.println(li);
+        li.addFirst(mylist);
+        System.out.println(li);
+        System.out.println(li.getFirst());
+        List ar = new ArrayList();
+        ar.add(li.getFirst());
+        System.out.println(ar);
+        /*for (Object a : ar){
+            System.out.println();
+        }*/
     }
 }

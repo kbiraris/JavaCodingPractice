@@ -1,3 +1,5 @@
+import org.w3c.dom.ls.LSOutput;
+
 import java.sql.Array;
 
 public class Test {
@@ -13,6 +15,14 @@ public class Test {
             sum += num;
         }
         System.out.println("sum is " + sum);
+
+
+        int add = 10;
+        System.out.println(add);
     }
+
+
+
+
 
 }
